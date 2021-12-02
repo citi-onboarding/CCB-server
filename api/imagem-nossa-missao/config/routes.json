@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/imagem-nossa-missao",
+      "handler": "imagem-nossa-missao.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/imagem-nossa-missao",
+      "handler": "imagem-nossa-missao.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/imagem-nossa-missao",
+      "handler": "imagem-nossa-missao.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

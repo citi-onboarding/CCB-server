@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/texto-nossa-missao",
+      "handler": "texto-nossa-missao.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/texto-nossa-missao",
+      "handler": "texto-nossa-missao.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/texto-nossa-missao",
+      "handler": "texto-nossa-missao.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "texto_nossa_missaos",
+  "info": {
+    "name": "textoNossaMissao"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "textoNossaMissao": {
+      "type": "text"
+    }
+  }
+}

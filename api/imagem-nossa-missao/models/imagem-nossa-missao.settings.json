@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "imagem_nossa_missaos",
+  "info": {
+    "name": "imagemNossaMissao"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "imagemNossaMissao": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}
