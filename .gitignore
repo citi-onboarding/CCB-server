@@ -1,2 +1,4 @@
 node_modules
 .env
+.strapi-updater.json
+yarn.lock

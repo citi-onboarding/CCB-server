@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "deseja_nos_ajudar_s",
+  "info": {
+    "name": "DesejaNosAjudar?"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Imagem": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "Subtitulo": {
+      "type": "string"
+    }
+  }
+}

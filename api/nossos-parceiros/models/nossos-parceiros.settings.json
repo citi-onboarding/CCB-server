@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "nossos_parceiros",
+  "info": {
+    "name": "NossosParceiros"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Imagens": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "Subtitulo": {
+      "type": "string"
+    }
+  }
+}
