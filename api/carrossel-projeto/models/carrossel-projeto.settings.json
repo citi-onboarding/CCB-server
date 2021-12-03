@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "carrossel_projetos",
+  "info": {
+    "name": "carrosselProjeto"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "tituloProjeto": {
+      "type": "string"
+    },
+    "descricaoProjeto": {
+      "type": "string"
+    },
+    "imagensProjeto": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}
