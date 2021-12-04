@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/carrossel-projetos",
+      "handler": "carrossel-projeto.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/carrossel-projetos/count",
+      "handler": "carrossel-projeto.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/carrossel-projetos/:id",
+      "handler": "carrossel-projeto.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/carrossel-projetos",
+      "handler": "carrossel-projeto.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/carrossel-projetos/:id",
+      "handler": "carrossel-projeto.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/carrossel-projetos/:id",
+      "handler": "carrossel-projeto.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
