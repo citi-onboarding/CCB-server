@@ -12,9 +12,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Subtitle": {
-      "type": "text"
-    },
     "Carrousel": {
       "collection": "file",
       "via": "related",
@@ -26,6 +23,9 @@
       "plugin": "upload",
       "required": false,
       "pluginOptions": {}
+    },
+    "subtitle": {
+      "type": "text"
     }
   }
 }
