@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "contatoes",
+  "info": {
+    "name": "Contato"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Endereco": {
+      "type": "string"
+    },
+    "Email": {
+      "type": "string"
+    },
+    "InstagramUser": {
+      "type": "string"
+    },
+    "Telefone": {
+      "type": "biginteger"
+    }
+  }
+}
