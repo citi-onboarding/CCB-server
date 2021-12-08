@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "carrossel_projetos",
   "info": {
-    "name": "carrosselProjeto"
+    "name": "carrosselProjeto",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -11,13 +12,7 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "tituloProjeto": {
-      "type": "string"
-    },
-    "descricaoProjeto": {
-      "type": "string"
-    },
-    "imagensProjeto": {
+    "images": {
       "collection": "file",
       "via": "related",
       "allowedTypes": [
