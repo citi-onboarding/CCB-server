@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/nossa-missaos",
+      "handler": "nossa-missao.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/nossa-missaos/count",
+      "handler": "nossa-missao.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/nossa-missaos/:id",
+      "handler": "nossa-missao.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/nossa-missaos",
+      "handler": "nossa-missao.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/nossa-missaos/:id",
+      "handler": "nossa-missao.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/nossa-missaos/:id",
+      "handler": "nossa-missao.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

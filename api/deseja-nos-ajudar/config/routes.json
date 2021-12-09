@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/deseja-nos-ajudars",
+      "handler": "deseja-nos-ajudar.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/deseja-nos-ajudars/count",
+      "handler": "deseja-nos-ajudar.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/deseja-nos-ajudars/:id",
+      "handler": "deseja-nos-ajudar.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/deseja-nos-ajudars",
+      "handler": "deseja-nos-ajudar.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/deseja-nos-ajudars/:id",
+      "handler": "deseja-nos-ajudar.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/deseja-nos-ajudars/:id",
+      "handler": "deseja-nos-ajudar.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

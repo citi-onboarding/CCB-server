@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "deseja_nos_ajudars",
+  "info": {
+    "name": "desejaNosAjudar",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "descricao": {
+      "type": "string"
+    },
+    "imagem": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "pix": {
+      "type": "string"
+    }
+  }
+}
